@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Get Started</title>
+    <link rel="stylesheet" href="./privacy.css">
+    <script src="./style.js"></script>
+    <link rel="shortcut icon" href="https://cdn.vectorstock.com/i/1000x1000/86/21/lets-start-text-call-to-action-text-banner-vector-44038621.webp" type="image/x-icon">
+    <script src="./style.js"></script>
+
+</head>
+<body>
+    <div class="form-modal">
+        <!-- HTML !-->
+                <div class="form-toggle">
+                    <button id="login-toggle" onclick="toggleLogin()">log in</button>
+                    <button id="signup-toggle" onclick="toggleSignup()">sign up</button>
+                </div>
+        
+                <div id="login-form">
+                    <form autocomplete="off">
+                        <input type="text" placeholder="Enter your name" />
+                        <input type="number" id="UserPassword" placeholder="Enter your 10 digit password" />
+                        <button type="button" onclick="run()" class="btn login">login</button>
+                        <p style="color:red;" id="invalid"></p>
+                        <p><a href="javascript:void(0)">Forgotten account</a></p>
+                        <br />
+                    </form>
+                </div>
+        
+                <div id="signup-form">
+                    <form autocomplete="off" action="https://formspree.io/f/xayzwbyy" method="POST">
+                        <input type="text" name="UserName" placeholder="Enter your name" />
+                        <input type="email" name="UserEmail" placeholder="Enter your email" />
+                        <input type="text" name="UserBusiness name" placeholder="Enter your bussiness name">
+                        <input type="number" name="UserContactNo." placeholder="Enter your contact number">
+                        <input type="password" name="UserPasword" placeholder="Create 10 digit password" />
+                        <a href="https://invoicepdfsoftware.netlify.app/thanks.html"><button type="submit" class="btn signup">create account </button></a>
+<!-- HTML !-->
+<a href="/price-chart/pricing.html"><input type="button" value="Visit our pricing plans" class="button-70"></a>
+
+                        <hr />
+        
+                    </form>
+                </div>
+        
+            </div>
+            <center><button class="button-button">Want to see dummy design? use password 1234567890 and enter any name </button></center>
+            <center><button  class="button-signup-bottom"><a href="mailto:anshulsoni2022@gmail?subject=Want%20my%20on%20Invoice%20Template&body=Hi%2C%20Anshul%20Soni.%0D%0A%0D%0AI%20am%20(Enter%20your%20name%20here)%0D%0A%0D%0AI%20want%20my%20own%20Invoice%20Template%20for%20our%20business.%20We%20are%20tired%20to%20make%20a%20handwritten%20paper%20invoice%20and%20I%20saw%20your%20branding%2C%20So%20I%20think%20this%20service%20is%20best%20for%20our%20business.%20Our%20business%20type%20is%20(Enter%20your%20business%20type%20here)%20this.%20So%2C%20Please%20make%20a%20template%20and%20share%20with%20me%20a%20few%20designs%20of%20your%20Invoice%20template.%20I%20will%20choose%201%20of%20them.%20I%20will%20share%20more%20information%20afterward.%0D%0A%0D%0AThanks%20%26%20Best%20Regards">Want your own invoice?</a></button></center>
+        <script src="./logindata.js"></script>
+</body>
+</html>
